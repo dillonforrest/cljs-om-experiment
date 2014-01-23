@@ -1,0 +1,53 @@
+html {
+  font-family: "Open Sans";
+}
+
+#app {
+  width: 600px;
+  margin: 50px auto;
+}
+
+.col-site,
+.col-status,
+.col-size,
+.col-owner,
+.col-edit
+{
+  width: 120px;
+  text-align: left;
+}
+
+.sorter {
+  display: inline-block;
+  float: right;
+  padding-right: 10px;
+}
+
+.table-cell {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#pager div {
+  width: 140px;
+  margin: 0 auto;
+}
+
+.even {
+  background-color: #dfdfdf;
+}
+
+.emphasis {
+  color: #000099; //blue
+  font-weight: 900;
+}
+
+#create-new {
+  float: right;
+  font-size: 1em;
+}
+
+.clickable {
+  cursor: pointer;
+}
